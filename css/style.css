@@ -1,0 +1,163 @@
+:root{
+	font-size:16px;
+	--primary-font:'Segoe UI';
+	--secondary-font:'Verdana';
+}
+
+*{
+	margin:0;
+	padding:0;
+	font-family:var(--secondary-font);
+}
+
+/*  navbar */
+.navbar{
+	display:flex;
+	justify-content:space-between;
+	padding:10px 60px 10px 10px;
+	box-shadow:0px 8px 16px grey;
+	position:relative;
+	z-index:1;
+}
+.navbar .logo{
+	font-family: var(--primary-font);
+	font-size:1.5rem;
+    margin-left:50px ;
+}
+.navbar ul{
+	list-style-type:none;
+	display:flex;
+}
+.navbar ul li{
+	padding:5px 10px;
+}
+.navbar ul li a{
+	font-size:1.125rem;
+	text-decoration: none;
+	color:black;
+} 
+/* kamalt el navbar */
+
+/* BR ARCHITECT SECTION (li feha el background */
+
+.br-architect{
+	background:url(../img/architect.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.br-architect .br-logo{
+	padding:20px 20px;
+	font-size:2rem;
+	color:white;
+}
+.br-architect .br-logo span{
+	background:black;
+	padding:10px 20px;
+	font-size:2rem;
+	font-weight:bold;
+	color:white;
+	opacity:0.8;
+}
+/*projects*/
+.projects{
+    padding:0 30px;
+}
+.houses{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.house1{
+    background:url('../img/house1.jpg');
+}
+.house2{
+    background:url('../img/house2.jpg');
+}
+.house3{
+    background:url('../img/house3.jpg');
+}
+.house4{
+    background:url('../img/house4.jpg');
+}
+.house5{
+    background:url('../img/house5.jpg');
+}
+.house6{
+    background:url('../img/house6.jpg');
+}
+.house7{
+    background:url('../img/house7.jpg');
+}
+.house8{
+    background:url('../img/house8.jpg');
+}
+.par{
+    color:white;
+    background-color: black;
+    padding:0px 5px;
+    font-size: 16px;
+}
+.pr{
+    min-height: 200px;
+    width:23% ;
+    min-width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+/*kammalt projects*/
+/*about*/
+img{
+    width:99%;
+
+}
+.about{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    
+}
+.about1{
+    width:24%;
+}
+.pos{
+    color: grey;
+}
+button{
+    width:100%
+}
+/*kammalt el about*/
+input{
+    width:100%;
+    height: 30px;
+    margin-top:10px;
+    margin-bottom:10px
+}
+.button1{
+    width:150px; 
+    height:40px;
+    margin-top:10px;
+    margin-bottom:10px
+}
+.mapouter{
+    margin-top:10px ;
+    margin-bottom:20px ;
+}
+/*kammalt el contact*/
+/*footer*/
+footer{
+    background-color: black;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.par2{
+    color: white;
+}
+/*kammaltel footer*/
